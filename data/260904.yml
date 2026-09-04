@@ -1,11 +1,13 @@
 about:
-  description: A Distributed Version Control System with a Friendly UI
+  description:
+  |
+    A Distributed Version Control System with a Friendly UI
   license: GPL-2.0
   homepage: https://www.breezy-vcs.org/
   head: 44b3c35
   archived: false
   latestVersion: brz-3.3.22
-  collectedAt: 2026-09-04T04:21:49Z
+  collectedAt: 2026-09-04T19:30:57Z
 timeline:
   created: 2018-05-06
   lastCommit: 2026-06-16
@@ -13,10 +15,10 @@ timeline:
 popularity:
   star: 189
   watcher: 4
-  fork: 35
+  fork: 34
   release: 3
   contributor: 191
-  pullRequest: 111
+  pullRequest: 419
   issue: 0
 language:
   Python: 14338696
@@ -27,13 +29,21 @@ language:
   Batchfile: 1750
   Roff: 1071
   Dockerfile: 527
-totalLine: 15049568
+totalBytes: 15049568
 recent:
   last30d:
     since: 2026-08-05
     release: 0
     mergedPR: 0
-    openPR: 2
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last60d:
+    since: 2026-07-06
+    release: 0
+    mergedPR: 14
+    openPR: 0
     closedIssue: 0
     openIssue: 0
     commit: 0
@@ -41,7 +51,7 @@ recent:
     since: 2026-06-06
     release: 0
     mergedPR: 19
-    openPR: 2
+    openPR: 0
     closedIssue: 0
     openIssue: 0
     commit: 2
@@ -49,7 +59,7 @@ recent:
     since: 2026-03-08
     release: 1
     mergedPR: 67
-    openPR: 5
+    openPR: 3
     closedIssue: 0
     openIssue: 0
     commit: 345
@@ -57,7 +67,25 @@ recent:
     since: 2025-09-09
     release: 2
     mergedPR: 97
-    openPR: 5
+    openPR: 3
     closedIssue: 0
     openIssue: 0
     commit: 428
+  last720d:
+    since: 2024-09-14
+    release: 3
+    mergedPR: 213
+    openPR: 12
+    closedIssue: 0
+    openIssue: 0
+    commit: 953
+total:
+  release: 3
+  mergedPR: 310
+  openPR: 12
+  closedIssue: 0
+  openIssue: 0
+  commit: 54066
+---
+---
+
