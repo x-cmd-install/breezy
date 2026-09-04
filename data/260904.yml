@@ -7,7 +7,7 @@ about:
   head: 44b3c35
   archived: false
   latestVersion: brz-3.3.22
-  collectedAt: 2026-09-04T19:30:57Z
+  collectedAt: 2026-09-04T20:59:44Z
 timeline:
   created: 2018-05-06
   lastCommit: 2026-06-16
@@ -87,5 +87,103 @@ total:
   openIssue: 0
   commit: 54066
 ---
+path: /home/runner/.x-repo/github.com/breezy-team/breezy
+collectedAt: 2026-09-04T21:00:04Z
+loc:
+  Python:
+    code: 307653
+    comments: 34609
+    blanks: 41169
+    files: 925
+  Rust:
+    code: 16867
+    comments: 467
+    blanks: 2082
+    files: 85
+  Svg:
+    code: 12900
+    comments: 8
+    blanks: 0
+    files: 8
+  Toml:
+    code: 447
+    comments: 5
+    blanks: 68
+    files: 16
+  Makefile:
+    code: 310
+    comments: 74
+    blanks: 117
+    files: 3
+  ForgeConfig:
+    code: 164
+    comments: 7
+    blanks: 26
+    files: 1
+  Sh:
+    code: 145
+    comments: 11
+    blanks: 19
+    files: 6
+  ReStructuredText:
+    code: 123
+    comments: 0
+    blanks: 60
+    files: 2
+  Css:
+    code: 115
+    comments: 23
+    blanks: 30
+    files: 2
+  Batch:
+    code: 111
+    comments: 24
+    blanks: 28
+    files: 3
+  Elisp:
+    code: 107
+    comments: 26
+    blanks: 30
+    files: 1
+  Autoconf:
+    code: 94
+    comments: 3
+    blanks: 28
+    files: 2
+  Html:
+    code: 77
+    comments: 2
+    blanks: 9
+    files: 3
+  Bitbake:
+    code: 16
+    comments: 1
+    blanks: 1
+    files: 2
+  D:
+    code: 12
+    comments: 121
+    blanks: 2
+    files: 1
+  Dockerfile:
+    code: 8
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 68
+    blanks: 24
+    files: 3
+  Text:
+    code: 0
+    comments: 37789
+    blanks: 14436
+    files: 255
+total:
+  code: 339149
+  comments: 74623
+  blanks: 58534
+  files: 1319
 ---
 
