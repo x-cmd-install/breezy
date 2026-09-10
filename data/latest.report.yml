@@ -7,7 +7,7 @@ about:
   latestVersion: "brz-3.3.22"
   latestRelease: "brz-3.3.22"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T17:46:39Z
+  collectedAt: 2026-09-10T21:22:23Z
 timeline:
   created: 2018-05-06
   lastCommit: 2026-06-16
@@ -90,7 +90,7 @@ total:
   commit: 54066
 ---
 path: /home/runner/.x-repo/github.com/breezy-team/breezy
-collectedAt: 2026-09-10T17:47:27Z
+collectedAt: 2026-09-10T21:23:17Z
 loc:
   Python:
     code: 307653
