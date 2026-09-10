@@ -12,6 +12,18 @@ A Distributed Version Control System with a Friendly UI
 x install breezy
 ```
 
+## Code insight
+
+Total: **339,149** lines of code across **1037** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Python | 307,653 | 34,609 | 41,169 | 925 |
+| Rust | 16,867 | 467 | 2,082 | 85 |
+| Svg | 12,900 | 8 | 0 | 8 |
+| Toml | 447 | 5 | 68 | 16 |
+| Makefile | 310 | 74 | 117 | 3 |
+
 ## Source
 
 - **Upstream**: <https://github.com/breezy-team/breezy>
@@ -22,7 +34,6 @@ x install breezy
 
 - **Latest**: `brz-3.3.22` (2026-05-05)
 - **Last commit**: 2026-06-16
-- **Published**: 2026-05-05T13:51:15Z
 
 ## Popularity
 
@@ -37,28 +48,36 @@ x install breezy
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 13 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 18 | 0 | 0 | 0 | 2 |
+| last180d | 2026-03-14 | 1 | 67 | 3 | 0 | 0 | 345 |
 | 360d | 2025-09-15 | 2 | 97 | 3 | 0 | 0 | 424 |
+| last720d | 2024-09-20 | 3 | 213 | 12 | 0 | 0 | 953 |
 
-## Code size
+## Distribution status
 
-Total: **339,149** lines of code across **1037** files in the top 5 languages.
+Reported by **107** distros on [repology.org](https://repology.org/project/breezy). **13** are ✅ on the latest upstream release, **87** are ⚠️ on an older version.
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Python | 307,653 | 34,609 | 41,169 | 925 |
-| Rust | 16,867 | 467 | 2,082 | 85 |
-| Svg | 12,900 | 8 | 0 | 8 |
-| Toml | 447 | 5 | 68 | 16 |
-| Makefile | 310 | 74 | 117 | 3 |
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `3.3.22` | ✅ latest |
+| Debian 14 | `3.3.22` | ✅ latest |
+| Debian 13 | `3.3.11` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `3.3.21` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.3.5` | ⚠️ outdated |
+| Arch | `3.3.21` | ⚠️ outdated |
+| Homebrew | `3.3.21` | ⚠️ outdated |
+| Fedora rawhide | `3.3.21` | ⚠️ outdated |
+| Nix unstable | `3.3.21` | ⚠️ outdated |
+| Alpine edge | `3.3.15` | ⚠️ outdated |
 
 ## Improve this data
 
 Install metadata for breezy lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `breezy` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/breezy.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/breezy.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T05:58:53Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:23:25Z._
