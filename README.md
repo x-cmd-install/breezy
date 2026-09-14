@@ -47,29 +47,12 @@ Total: **339,149** lines of code across **1037** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-15 | 0 | 13 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-15 | 0 | 17 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-17 | 1 | 66 | 3 | 0 | 0 | 342 |
-| 360d | 2025-09-18 | 2 | 97 | 3 | 0 | 0 | 424 |
-| last720d | 2024-09-23 | 3 | 213 | 12 | 0 | 0 | 953 |
-
-## Distribution status
-
-Reported by **107** distros on [repology.org](https://repology.org/project/breezy). **13** are ✅ on the latest upstream release, **87** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.3.22` | ✅ latest |
-| Debian 14 | `3.3.22` | ✅ latest |
-| Debian 13 | `3.3.11` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.3.21` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.3.5` | ⚠️ outdated |
-| Arch | `3.3.21` | ⚠️ outdated |
-| Homebrew | `3.3.21` | ⚠️ outdated |
-| Fedora rawhide | `3.3.21` | ⚠️ outdated |
-| Nix unstable | `3.3.21` | ⚠️ outdated |
-| Alpine edge | `3.3.15` | ⚠️ outdated |
+| 30d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-16 | 0 | 10 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-16 | 0 | 15 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-18 | 1 | 66 | 3 | 0 | 0 | 342 |
+| 360d | 2025-09-19 | 2 | 97 | 3 | 0 | 0 | 424 |
+| last720d | 2024-09-24 | 3 | 213 | 12 | 0 | 0 | 953 |
 
 ## Improve this data
 
@@ -80,4 +63,4 @@ Install metadata for breezy lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:02:44Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:21:13Z._
