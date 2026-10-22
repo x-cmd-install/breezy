@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/breezy-team/breezy/releases/317836333",
-  "assets_url": "https://api.github.com/repos/breezy-team/breezy/releases/317836333/assets",
-  "upload_url": "https://uploads.github.com/repos/breezy-team/breezy/releases/317836333/assets{?name,label}",
-  "html_url": "https://github.com/breezy-team/breezy/releases/tag/brz-3.3.22",
-  "id": 317836333,
+  "url": "https://api.github.com/repos/breezy-team/breezy/releases/420183457",
+  "assets_url": "https://api.github.com/repos/breezy-team/breezy/releases/420183457/assets",
+  "upload_url": "https://uploads.github.com/repos/breezy-team/breezy/releases/420183457/assets{?name,label}",
+  "html_url": "https://github.com/breezy-team/breezy/releases/tag/brz-3.3.23",
+  "id": 420183457,
   "author": {
     "login": "jelmer",
     "id": 49032,
@@ -25,32 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOB-NI1s4S8cwt",
-  "tag_name": "brz-3.3.22",
+  "node_id": "RE_kwDOB-NI1s4ZC32h",
+  "tag_name": "brz-3.3.23",
   "target_commitish": "main",
-  "name": "3.3.22",
+  "name": "3.3.23",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-05-05T12:58:55Z",
-  "updated_at": "2026-05-05T13:51:15Z",
-  "published_at": "2026-05-05T13:51:15Z",
+  "created_at": "2026-10-22T00:28:13Z",
+  "updated_at": "2026-10-22T00:28:35Z",
+  "published_at": "2026-10-22T00:28:35Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/breezy-team/breezy/tarball/brz-3.3.22",
-  "zipball_url": "https://api.github.com/repos/breezy-team/breezy/zipball/brz-3.3.22",
-  "body": " * Honour `token` entries in `authentication.conf` by sending an\n   `Authorization` header preemptively over HTTP. `brz gh-login` and\n   `brz gitlab-login` now write a `token` field, so subsequent git\n   smart-HTTP fetch and push traffic to GitHub and GitLab reuses the\n   forge credentials rather than going anonymous. (Jelmer Vernooĳ)\n\n * Use the `vcsgraph` package for graph, topological sort and\n   known graph implementations rather than local copies.\n   (Jelmer Vernooĳ)\n\n * Add a format-independent `MemoryTree` in `breezy.memorytree`\n   that does not use file ids or inventories. The bzr-specific\n   `MemoryTree` has moved to `breezy.bzr.memorytree`.\n   `Branch.create_memorytree()` is now format-specific, with\n   implementations on `BzrBranch`, `RemoteBranch` and\n   `LocalGitBranch`. (Jelmer Vernooĳ)\n\n * Drive three-way merges by paths rather than by file ids, so\n   non-inventory trees (including the new generic `MemoryTree`)\n   can participate in merges. (Jelmer Vernooĳ)\n\n * Fix `MalformedTransform: unversioned executability` crash when\n   merging a git tree where THIS renames a file that OTHER modifies.\n   (Jelmer Vernooĳ)\n\n * Fix `revision_tree()` crash when a bzr revision id\n   embeds a git tag SHA rather than a commit SHA.\n   (Jelmer Vernooĳ)\n\n * Fix TLS certificate verification error when accessing an HTTPS\n   server through an HTTP proxy. (L. Guruprasad)\n\n * Use the `catalogus` package for the registry implementation\n   rather than a local copy. (Jelmer Vernooĳ)\n\n * Fix builtin command lookup when running brz commands in-process\n   without going through `main()`. (Jelmer Vernooĳ)\n\n * Hold a read lock around `workspace.extras()` to avoid\n   inconsistent results under concurrent access. (Jelmer Vernooĳ)\n",
-  "reactions": {
-    "url": "https://api.github.com/repos/breezy-team/breezy/releases/317836333/reactions",
-    "total_count": 1,
-    "+1": 1,
-    "-1": 0,
-    "laugh": 0,
-    "hooray": 0,
-    "confused": 0,
-    "heart": 0,
-    "rocket": 0,
-    "eyes": 0
-  }
+  "tarball_url": "https://api.github.com/repos/breezy-team/breezy/tarball/brz-3.3.23",
+  "zipball_url": "https://api.github.com/repos/breezy-team/breezy/zipball/brz-3.3.23",
+  "body": " * Add Python 3.15 support. (Jelmer Vernooĳ)\n\n * launchpad: Fix authorization engine creation against newer\n   launchpadlib, which made `Launchpad.authorization_engine_factory`\n   take keyword arguments only. Enumerating forges raised `TypeError`\n   before this. (Zainab Mehmut)\n\n * gitlab: Report the name of the project that was asked for when it does\n   not exist. `NoSuchProject` carried `None` instead.\n   (Zainab Mehmut)\n\n * Let `-r date:` select the newest revision in a branch. The bisect\n   stopped one short of the tip, so when only the newest revision came\n   after the date, `date:` reported no such revision.\n   (Jelmer Vernooĳ)\n\n * Fix opening a colocated branch whose name holds `/`. The\n   `user_url` of such a branch could not be opened. `brz info`\n   shows such a name decoded. (Zainab Mehmut)\n\n * git: Free a dropped repository or branch at once, so its `.pack`\n   and `.idx` files are closed without waiting for Python's cycle\n   collector.\n   (Zainab Mehmut)\n"
 }
