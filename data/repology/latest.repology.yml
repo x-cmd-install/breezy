@@ -1,3 +1,63 @@
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: breezy
+  binnames:
+    - brz
+    - python3-breezy
+    - python3-breezy.tests
+    - brz-doc
+  visiblename: breezy
+  version: 3.1.0
+  origversion: 3.1.0-8
+  status: outdated
+  maintainers:
+    - pkg-bazaar-maint@lists.alioth.debian.org
+    - jelmer@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: breezy
+  binnames:
+    - brz
+    - python3-breezy
+    - python3-breezy.tests
+    - brz-doc
+  visiblename: breezy
+  version: 3.3.22
+  origversion: 3.3.22-2
+  status: outdated
+  maintainers:
+    - pkg-bazaar-maint@lists.alioth.debian.org
+    - jelmer@debian.org
+  categories:
+    - misc
+- repo: apertis_v2023
+  subrepo: v2023/sdk
+  srcname: breezy
+  binnames:
+    - brz
+    - python3-breezy
+    - python3-breezy.tests
+    - brz-doc
+  visiblename: breezy
+  version: 3.1.0
+  origversion: 3.1.0-8+apertis0
+  status: outdated
+  maintainers:
+    - pkg-bazaar-maint@lists.alioth.debian.org
+    - jelmer@debian.org
+- repo: artix
+  subrepo: world
+  srcname: breezy
+  binname: breezy
+  visiblename: breezy
+  version: 3.3.22
+  origversion: 3.3.22-1
+  status: outdated
+  summary: A decentralized revision control system with support for Bazaar and Git file formats
+  licenses:
+    - GPL-2.0-or-later
 - repo: alpine_3_17
   subrepo: community
   srcname: breezy
@@ -102,6 +162,23 @@
     - xpecex@outlook.com
   licenses:
     - GPL-2.0-or-later
+- repo: raspbian_stable
+  subrepo: main
+  srcname: breezy
+  binnames:
+    - brz
+    - python3-breezy
+    - python3-breezy.tests
+    - brz-doc
+  visiblename: breezy
+  version: 3.3.11
+  origversion: 3.3.11-1
+  status: outdated
+  maintainers:
+    - pkg-bazaar-maint@lists.alioth.debian.org
+    - jelmer@debian.org
+  categories:
+    - misc
 - repo: alpine_3_21
   subrepo: community
   srcname: breezy
@@ -206,21 +283,6 @@
     - huajingyun@loongson.cn
   licenses:
     - GPL-2.0-or-later
-- repo: apertis_v2027
-  subrepo: v2027dev1/sdk
-  srcname: breezy
-  binnames:
-    - brz
-    - python3-breezy
-    - python3-breezy.tests
-    - brz-doc
-  visiblename: breezy
-  version: 3.3.11
-  origversion: 3.3.11-1+apertis0
-  status: outdated
-  maintainers:
-    - pkg-bazaar-maint@lists.alioth.debian.org
-    - jelmer@debian.org
 - repo: alpine_3_24
   subrepo: community
   srcname: breezy
@@ -336,21 +398,6 @@
     - fallback-mnt-aosc@repology
   categories:
     - vcs
-- repo: apertis_v2023
-  subrepo: v2023/sdk
-  srcname: breezy
-  binnames:
-    - brz
-    - python3-breezy
-    - python3-breezy.tests
-    - brz-doc
-  visiblename: breezy
-  version: 3.1.0
-  origversion: 3.1.0-8+apertis0
-  status: outdated
-  maintainers:
-    - pkg-bazaar-maint@lists.alioth.debian.org
-    - jelmer@debian.org
 - repo: apertis_v2024
   subrepo: v2024/sdk
   srcname: breezy
@@ -396,36 +443,23 @@
   maintainers:
     - pkg-bazaar-maint@lists.alioth.debian.org
     - jelmer@debian.org
-- repo: pureos_byzantium
-  subrepo: byzantium/main
+- repo: apertis_v2027
+  subrepo: v2027dev1/sdk
   srcname: breezy
   binnames:
     - brz
-    - brz-doc
     - python3-breezy
     - python3-breezy.tests
+    - brz-doc
   visiblename: breezy
-  version: 3.1.0
-  origversion: 3.1.0-8
+  version: 3.3.11
+  origversion: 3.3.11-1+apertis0
   status: outdated
   maintainers:
     - pkg-bazaar-maint@lists.alioth.debian.org
     - jelmer@debian.org
-  categories:
-    - vcs
 - repo: arch
   subrepo: extra
-  srcname: breezy
-  binname: breezy
-  visiblename: breezy
-  version: 3.3.22
-  origversion: 3.3.22-1
-  status: outdated
-  summary: A decentralized revision control system with support for Bazaar and Git file formats
-  licenses:
-    - GPL-2.0-or-later
-- repo: artix
-  subrepo: world
   srcname: breezy
   binname: breezy
   visiblename: breezy
@@ -569,47 +603,13 @@
   maintainers:
     - pkg-bazaar-maint@lists.alioth.debian.org
     - jelmer@debian.org
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: breezy
-  binnames:
-    - brz
-    - python3-breezy
-    - python3-breezy.tests
-    - brz-doc
-  visiblename: breezy
-  version: 3.1.0
-  origversion: 3.1.0-8
-  status: outdated
-  maintainers:
-    - pkg-bazaar-maint@lists.alioth.debian.org
-    - jelmer@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: breezy
-  binnames:
-    - brz
-    - python3-breezy
-    - python3-breezy.tests
-    - brz-doc
-  visiblename: breezy
-  version: 3.3.22
-  origversion: 3.3.22-2
-  status: outdated
-  maintainers:
-    - pkg-bazaar-maint@lists.alioth.debian.org
-    - jelmer@debian.org
-  categories:
-    - misc
 - repo: exherbo
   subrepo: arbor
   srcname: dev-scm/breezy
   visiblename: dev-scm/breezy
-  version: 3.3.22
+  version: 3.3.23
   origversion: null
-  status: outdated
+  status: newest
   summary: A friendly powerful distributed version control system
   maintainers:
     - fallback-mnt-exherbo@repology
@@ -718,27 +718,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: release
-  srcname: breezy
-  binnames:
-    - breezy
-    - breezy+git
-    - breezy+launchpad
-    - breezy+pgp
-    - breezy+paramiko
-    - breezy-doc
-    - breezy-debuginfo
-    - breezy-debugsource
-  visiblename: breezy
-  version: 3.3.20
-  origversion: 3.3.20-3.fc44
-  status: legacy
-  summary: Friendly distributed version control system
-  licenses:
-    - GPL-2.0-or-later AND (MIT OR Apache-2.0) AND Unicode-DFS-2016 AND MIT AND (Unlicense OR MIT)
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: updates
   srcname: breezy
   binnames:
@@ -757,6 +736,27 @@
   summary: Friendly distributed version control system
   licenses:
     - GPL-2.0-or-later AND (MIT OR Apache-2.0) AND Unicode-DFS-2016 AND (Unlicense OR MIT)
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: breezy
+  binnames:
+    - breezy
+    - breezy+git
+    - breezy+launchpad
+    - breezy+pgp
+    - breezy+paramiko
+    - breezy-doc
+    - breezy-debuginfo
+    - breezy-debugsource
+  visiblename: breezy
+  version: 3.3.20
+  origversion: 3.3.20-3.fc44
+  status: legacy
+  summary: Friendly distributed version control system
+  licenses:
+    - GPL-2.0-or-later AND (MIT OR Apache-2.0) AND Unicode-DFS-2016 AND MIT AND (Unlicense OR MIT)
   categories:
     - Unspecified
 - repo: fedora_rawhide
@@ -796,23 +796,6 @@
     - Unicode-3.0
   categories:
     - dev-vcs
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: breezy
-  binnames:
-    - brz
-    - brz-doc
-    - python3-breezy
-    - python3-breezy.tests
-  visiblename: breezy
-  version: 3.3.11
-  origversion: 3.3.11-1
-  status: outdated
-  maintainers:
-    - pkg-bazaar-maint@lists.alioth.debian.org
-    - jelmer@debian.org
-  categories:
-    - vcs
 - repo: gentoo
   srcname: dev-vcs/breezy
   visiblename: dev-vcs/breezy
@@ -948,23 +931,6 @@
     - Unicode-3.0
   categories:
     - dev-vcs
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: breezy
-  binnames:
-    - brz
-    - python3-breezy
-    - python3-breezy.tests
-    - brz-doc
-  visiblename: breezy
-  version: 3.3.2
-  origversion: 3.3.2-3
-  status: outdated
-  maintainers:
-    - pkg-bazaar-maint@lists.alioth.debian.org
-    - jelmer@debian.org
-  categories:
-    - misc
 - repo: liguros_develop
   srcname: dev-vcs/breezy
   visiblename: dev-vcs/breezy
@@ -1131,23 +1097,6 @@
     - fallback-mnt-nix@repology
   licenses:
     - GPL-2.0-only
-- repo: raspbian_stable
-  subrepo: main
-  srcname: breezy
-  binnames:
-    - brz
-    - python3-breezy
-    - python3-breezy.tests
-    - brz-doc
-  visiblename: breezy
-  version: 3.3.11
-  origversion: 3.3.11-1
-  status: outdated
-  maintainers:
-    - pkg-bazaar-maint@lists.alioth.debian.org
-    - jelmer@debian.org
-  categories:
-    - misc
 - repo: nix_stable_26_05
   srcname: breezy
   visiblename: breezy
@@ -1271,7 +1220,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: breezy
   binnames:
     - brz
@@ -1288,7 +1237,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: breezy
   binnames:
     - brz
@@ -1359,6 +1308,57 @@
     - jelmer@debian.org
   categories:
     - vcs
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: breezy
+  binnames:
+    - brz
+    - brz-doc
+    - python3-breezy
+    - python3-breezy.tests
+  visiblename: breezy
+  version: 3.1.0
+  origversion: 3.1.0-8
+  status: outdated
+  maintainers:
+    - pkg-bazaar-maint@lists.alioth.debian.org
+    - jelmer@debian.org
+  categories:
+    - vcs
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: breezy
+  binnames:
+    - brz
+    - brz-doc
+    - python3-breezy
+    - python3-breezy.tests
+  visiblename: breezy
+  version: 3.3.11
+  origversion: 3.3.11-1
+  status: outdated
+  maintainers:
+    - pkg-bazaar-maint@lists.alioth.debian.org
+    - jelmer@debian.org
+  categories:
+    - vcs
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: breezy
+  binnames:
+    - brz
+    - python3-breezy
+    - python3-breezy.tests
+    - brz-doc
+  visiblename: breezy
+  version: 3.3.2
+  origversion: 3.3.2-3
+  status: outdated
+  maintainers:
+    - pkg-bazaar-maint@lists.alioth.debian.org
+    - jelmer@debian.org
+  categories:
+    - misc
 - repo: raspbian_testing
   subrepo: main
   srcname: breezy
