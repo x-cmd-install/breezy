@@ -47,16 +47,16 @@ Total: **339,149** lines of code across **1037** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 2 | 41 | 18 | 0 | 0 | 0 |
-| last60d | 2026-09-02 | 2 | 47 | 20 | 0 | 0 | 0 |
-| 90d | 2026-08-03 | 2 | 47 | 20 | 0 | 0 | 0 |
-| last180d | 2026-05-05 | 3 | 87 | 23 | 0 | 0 | 65 |
-| 360d | 2025-11-06 | 3 | 135 | 23 | 0 | 0 | 394 |
-| last720d | 2024-11-11 | 5 | 261 | 29 | 0 | 0 | 946 |
+| 30d | 2026-10-03 | 2 | 37 | 17 | 0 | 0 | 0 |
+| last60d | 2026-09-03 | 2 | 47 | 20 | 0 | 0 | 0 |
+| 90d | 2026-08-04 | 2 | 47 | 20 | 0 | 0 | 0 |
+| last180d | 2026-05-06 | 2 | 85 | 23 | 0 | 0 | 65 |
+| 360d | 2025-11-07 | 3 | 135 | 23 | 0 | 0 | 394 |
+| last720d | 2024-11-12 | 5 | 261 | 29 | 0 | 0 | 946 |
 
 ## Distribution status
 
-Reported by **104** distros on [repology.org](https://repology.org/project/breezy). **5** are ✅ on the latest upstream release, **90** are ⚠️ on an older version.
+Reported by **104** distros on [repology.org](https://repology.org/project/breezy). **1** are ✅ on the latest upstream release, **94** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -66,7 +66,7 @@ Reported by **104** distros on [repology.org](https://repology.org/project/breez
 | Ubuntu 26.04 LTS | `3.3.21` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.3.5` | ⚠️ outdated |
 | Arch | `3.3.22` | ⚠️ outdated |
-| Homebrew | `3.3.21` | ⚠️ outdated |
+| Homebrew | `3.3.24` | ✅ latest |
 | Fedora rawhide | `3.3.21` | ⚠️ outdated |
 | Nix unstable | `3.3.21` | ⚠️ outdated |
 | Alpine edge | `3.3.15` | ⚠️ outdated |
@@ -80,4 +80,4 @@ Install metadata for breezy lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T07:11:06Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T07:19:50Z._

@@ -47,16 +47,16 @@ x install breezy
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 2 | 41 | 18 | 0 | 0 | 0 |
-| last60d | 2026-09-02 | 2 | 47 | 20 | 0 | 0 | 0 |
-| 90d | 2026-08-03 | 2 | 47 | 20 | 0 | 0 | 0 |
-| last180d | 2026-05-05 | 3 | 87 | 23 | 0 | 0 | 65 |
-| 360d | 2025-11-06 | 3 | 135 | 23 | 0 | 0 | 394 |
-| last720d | 2024-11-11 | 5 | 261 | 29 | 0 | 0 | 946 |
+| 30d | 2026-10-03 | 2 | 37 | 17 | 0 | 0 | 0 |
+| last60d | 2026-09-03 | 2 | 47 | 20 | 0 | 0 | 0 |
+| 90d | 2026-08-04 | 2 | 47 | 20 | 0 | 0 | 0 |
+| last180d | 2026-05-06 | 2 | 85 | 23 | 0 | 0 | 65 |
+| 360d | 2025-11-07 | 3 | 135 | 23 | 0 | 0 | 394 |
+| last720d | 2024-11-12 | 5 | 261 | 29 | 0 | 0 | 946 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/breezy) 上共有 **104** 个发行版报告此项目。**5** 个 ✅ 已是最新上游版本，**90** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/breezy) 上共有 **104** 个发行版报告此项目。**1** 个 ✅ 已是最新上游版本，**94** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -66,7 +66,7 @@ x install breezy
 | Ubuntu 26.04 LTS | `3.3.21` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.3.5` | ⚠️ outdated |
 | Arch | `3.3.22` | ⚠️ outdated |
-| Homebrew | `3.3.21` | ⚠️ outdated |
+| Homebrew | `3.3.24` | ✅ latest |
 | Fedora rawhide | `3.3.21` | ⚠️ outdated |
 | Nix unstable | `3.3.21` | ⚠️ outdated |
 | Alpine edge | `3.3.15` | ⚠️ outdated |
@@ -80,4 +80,4 @@ breezy 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261101.yml` · 2026-11-01T07:11:07Z._
+_数据快照: `data/card/261102.yml` · 2026-11-02T07:19:51Z._
