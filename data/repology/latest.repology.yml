@@ -1,3 +1,35 @@
+- repo: deepin_23
+  subrepo: main
+  srcname: breezy
+  binnames:
+    - brz
+    - python3-breezy
+    - python3-breezy.tests
+    - brz-doc
+  visiblename: breezy
+  version: 3.3.6
+  origversion: 3.3.6-1
+  status: outdated
+  maintainers:
+    - pkg-bazaar-maint@lists.alioth.debian.org
+    - jelmer@debian.org
+  categories:
+    - vcs
+- repo: deepin_25
+  subrepo: main
+  srcname: breezy
+  binnames:
+    - brz
+    - python3-breezy
+    - python3-breezy.tests
+    - brz-doc
+  visiblename: breezy
+  version: 3.3.6
+  origversion: 3.3.6-1
+  status: outdated
+  maintainers:
+    - pkg-bazaar-maint@lists.alioth.debian.org
+    - jelmer@debian.org
 - repo: devuan_4_0
   subrepo: chimaera/main
   srcname: breezy
@@ -32,21 +64,6 @@
     - jelmer@debian.org
   categories:
     - misc
-- repo: apertis_v2023
-  subrepo: v2023/sdk
-  srcname: breezy
-  binnames:
-    - brz
-    - python3-breezy
-    - python3-breezy.tests
-    - brz-doc
-  visiblename: breezy
-  version: 3.1.0
-  origversion: 3.1.0-8+apertis0
-  status: outdated
-  maintainers:
-    - pkg-bazaar-maint@lists.alioth.debian.org
-    - jelmer@debian.org
 - repo: artix
   subrepo: world
   srcname: breezy
@@ -58,6 +75,17 @@
   summary: A decentralized revision control system with support for Bazaar and Git file formats
   licenses:
     - GPL-2.0-or-later
+- repo: nix_stable_25_05
+  srcname: breezy
+  visiblename: breezy
+  version: 3.3.12
+  origversion: null
+  status: outdated
+  summary: Friendly distributed version control system
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - GPL-2.0-only
 - repo: alpine_3_17
   subrepo: community
   srcname: breezy
@@ -162,23 +190,6 @@
     - xpecex@outlook.com
   licenses:
     - GPL-2.0-or-later
-- repo: raspbian_stable
-  subrepo: main
-  srcname: breezy
-  binnames:
-    - brz
-    - python3-breezy
-    - python3-breezy.tests
-    - brz-doc
-  visiblename: breezy
-  version: 3.3.11
-  origversion: 3.3.11-1
-  status: outdated
-  maintainers:
-    - pkg-bazaar-maint@lists.alioth.debian.org
-    - jelmer@debian.org
-  categories:
-    - misc
 - repo: alpine_3_21
   subrepo: community
   srcname: breezy
@@ -367,6 +378,23 @@
     - GPL-2.0-or-later
   categories:
     - Development/Other
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: breezy
+  binnames:
+    - brz
+    - python3-breezy
+    - python3-breezy.tests
+    - brz-doc
+  visiblename: breezy
+  version: 3.3.22
+  origversion: 3.3.22-2
+  status: outdated
+  maintainers:
+    - pkg-bazaar-maint@lists.alioth.debian.org
+    - jelmer@debian.org
+  categories:
+    - misc
 - repo: altsisyphus
   srcname: breezy
   binnames:
@@ -398,6 +426,21 @@
     - fallback-mnt-aosc@repology
   categories:
     - vcs
+- repo: apertis_v2023
+  subrepo: v2023/sdk
+  srcname: breezy
+  binnames:
+    - brz
+    - python3-breezy
+    - python3-breezy.tests
+    - brz-doc
+  visiblename: breezy
+  version: 3.1.0
+  origversion: 3.1.0-8+apertis0
+  status: outdated
+  maintainers:
+    - pkg-bazaar-maint@lists.alioth.debian.org
+    - jelmer@debian.org
 - repo: apertis_v2024
   subrepo: v2024/sdk
   srcname: breezy
@@ -537,23 +580,6 @@
     - jelmer@debian.org
   categories:
     - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: breezy
-  binnames:
-    - brz
-    - python3-breezy
-    - python3-breezy.tests
-    - brz-doc
-  visiblename: breezy
-  version: 3.3.22
-  origversion: 3.3.22-2
-  status: outdated
-  maintainers:
-    - pkg-bazaar-maint@lists.alioth.debian.org
-    - jelmer@debian.org
-  categories:
-    - misc
 - repo: deepin_unstable
   subrepo: main
   srcname: breezy
@@ -571,45 +597,13 @@
   maintainers:
     - pkg-bazaar-maint@lists.alioth.debian.org
     - jelmer@debian.org
-- repo: deepin_23
-  subrepo: main
-  srcname: breezy
-  binnames:
-    - brz
-    - python3-breezy
-    - python3-breezy.tests
-    - brz-doc
-  visiblename: breezy
-  version: 3.3.6
-  origversion: 3.3.6-1
-  status: outdated
-  maintainers:
-    - pkg-bazaar-maint@lists.alioth.debian.org
-    - jelmer@debian.org
-  categories:
-    - vcs
-- repo: deepin_25
-  subrepo: main
-  srcname: breezy
-  binnames:
-    - brz
-    - python3-breezy
-    - python3-breezy.tests
-    - brz-doc
-  visiblename: breezy
-  version: 3.3.6
-  origversion: 3.3.6-1
-  status: outdated
-  maintainers:
-    - pkg-bazaar-maint@lists.alioth.debian.org
-    - jelmer@debian.org
 - repo: exherbo
   subrepo: arbor
   srcname: dev-scm/breezy
   visiblename: dev-scm/breezy
   version: 3.3.23
   origversion: null
-  status: newest
+  status: outdated
   summary: A friendly powerful distributed version control system
   maintainers:
     - fallback-mnt-exherbo@repology
@@ -796,6 +790,17 @@
     - Unicode-3.0
   categories:
     - dev-vcs
+- repo: nix_stable_25_11
+  srcname: breezy
+  visiblename: breezy
+  version: 3.3.12
+  origversion: null
+  status: outdated
+  summary: Friendly distributed version control system
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - GPL-2.0-only
 - repo: gentoo
   srcname: dev-vcs/breezy
   visiblename: dev-vcs/breezy
@@ -833,7 +838,7 @@
   visiblename: dev-vcs/breezy
   version: 3.3.23
   origversion: null
-  status: newest
+  status: outdated
   summary: Distributed Version Control System with a Friendly UI
   maintainers:
     - arthurzam@gentoo.org
@@ -855,9 +860,9 @@
 - repo: homebrew
   srcname: breezy
   visiblename: breezy
-  version: 3.3.21
+  version: 3.3.24
   origversion: null
-  status: outdated
+  status: newest
   summary: Version control system implemented in Python with multi-format support
 - repo: homebrew
   srcname: breezy
@@ -936,7 +941,7 @@
   visiblename: dev-vcs/breezy
   version: 3.3.23
   origversion: null
-  status: newest
+  status: outdated
   summary: Distributed Version Control System with a Friendly UI
   maintainers:
     - arthurzam@gentoo.org
@@ -1012,23 +1017,23 @@
   srcname: breezy
   binname: breezy
   visiblename: breezy
-  version: 3.3.21
-  origversion: 3.3.21-2
+  version: 3.3.4
+  origversion: 3.3.4-1
   status: outdated
   summary: A decentralized revision control system with support for Bazaar and Git file formats
   licenses:
-    - GPL-2.0-or-later
+    - GPL2
 - repo: manjaro_testing
   subrepo: extra
   srcname: breezy
   binname: breezy
   visiblename: breezy
-  version: 3.3.22
-  origversion: 3.3.22-1
+  version: 3.3.4
+  origversion: 3.3.4-1
   status: outdated
   summary: A decentralized revision control system with support for Bazaar and Git file formats
   licenses:
-    - GPL-2.0-or-later
+    - GPL2
 - repo: manjaro_unstable
   subrepo: extra
   srcname: breezy
@@ -1047,7 +1052,7 @@
   visiblename: breezy
   version: 3.3.23
   origversion: 3.3.23-1
-  status: newest
+  status: outdated
   summary: A decentralized revision control system with support for Bazaar and Git file formats
   licenses:
     - spdx:GPL-2.0-or-later
@@ -1068,28 +1073,6 @@
   srcname: breezy
   visiblename: breezy
   version: 3.3.7
-  origversion: null
-  status: outdated
-  summary: Friendly distributed version control system
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - GPL-2.0-only
-- repo: nix_stable_25_05
-  srcname: breezy
-  visiblename: breezy
-  version: 3.3.12
-  origversion: null
-  status: outdated
-  summary: Friendly distributed version control system
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - GPL-2.0-only
-- repo: nix_stable_25_11
-  srcname: breezy
-  visiblename: breezy
-  version: 3.3.12
   origversion: null
   status: outdated
   summary: Friendly distributed version control system
@@ -1359,6 +1342,23 @@
     - jelmer@debian.org
   categories:
     - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: breezy
+  binnames:
+    - brz
+    - python3-breezy
+    - python3-breezy.tests
+    - brz-doc
+  visiblename: breezy
+  version: 3.3.11
+  origversion: 3.3.11-1
+  status: outdated
+  maintainers:
+    - pkg-bazaar-maint@lists.alioth.debian.org
+    - jelmer@debian.org
+  categories:
+    - misc
 - repo: raspbian_testing
   subrepo: main
   srcname: breezy
@@ -1518,7 +1518,7 @@
   visiblename: Breezy
   version: 3.3.23
   origversion: null
-  status: newest
+  status: outdated
   summary: source version control software
   licenses:
     - GNU General Public License, version 2.0 or later
