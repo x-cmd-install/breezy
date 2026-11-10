@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/breezy-team/breezy/releases/430112664",
-  "assets_url": "https://api.github.com/repos/breezy-team/breezy/releases/430112664/assets",
-  "upload_url": "https://uploads.github.com/repos/breezy-team/breezy/releases/430112664/assets{?name,label}",
-  "html_url": "https://github.com/breezy-team/breezy/releases/tag/brz-3.3.24",
-  "id": 430112664,
+  "url": "https://api.github.com/repos/breezy-team/breezy/releases/438591331",
+  "assets_url": "https://api.github.com/repos/breezy-team/breezy/releases/438591331/assets",
+  "upload_url": "https://uploads.github.com/repos/breezy-team/breezy/releases/438591331/assets{?name,label}",
+  "html_url": "https://github.com/breezy-team/breezy/releases/tag/brz-3.3.25",
+  "id": 438591331,
   "author": {
     "login": "jelmer",
     "id": 49032,
@@ -25,20 +25,32 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOB-NI1s4Zov-Y",
-  "tag_name": "brz-3.3.24",
+  "node_id": "RE_kwDOB-NI1s4aJF9j",
+  "tag_name": "brz-3.3.25",
   "target_commitish": "main",
-  "name": "brz-3.3.24",
+  "name": "brz-3.3.25",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-31T18:32:05Z",
-  "updated_at": "2026-10-31T18:32:15Z",
-  "published_at": "2026-10-31T18:32:15Z",
+  "created_at": "2026-11-08T23:19:11Z",
+  "updated_at": "2026-11-08T23:19:24Z",
+  "published_at": "2026-11-08T23:19:24Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/breezy-team/breezy/tarball/brz-3.3.24",
-  "zipball_url": "https://api.github.com/repos/breezy-team/breezy/zipball/brz-3.3.24",
-  "body": "Ship Windows and arm64 macOS wheels and an sdist again. Without them pip on those platforms fell back to building an older release."
+  "tarball_url": "https://api.github.com/repos/breezy-team/breezy/tarball/brz-3.3.25",
+  "zipball_url": "https://api.github.com/repos/breezy-team/breezy/zipball/brz-3.3.25",
+  "body": " * git: Clone submodules whose URL is scp-like (`git@example.com:team/lib.git`) or starts with `ssh://`, using `git+ssh`.\n * Read chunked HTTP responses to their end before reusing the connection. This fixes `brz push` of large git branches, mostly over HTTPS.\n * Do not resend a request whose body came from an already consumed iterator or file; a push sent an empty pack.\n * gitlab: Accept numeric project ids.\n * git: Ignore peeled `^{}` lines in `info/refs` over dumb HTTP. Branching a repository with an annotated tag failed with `RefFormatError`.\n * `workspace.check_clean_tree` no longer hashes files inside `.gitignore`'d directories on git working trees.\n",
+  "reactions": {
+    "url": "https://api.github.com/repos/breezy-team/breezy/releases/438591331/reactions",
+    "total_count": 1,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 1,
+    "rocket": 0,
+    "eyes": 0
+  }
 }
