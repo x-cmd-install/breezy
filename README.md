@@ -32,7 +32,7 @@ Total: **339,242** lines of code across **1037** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `brz-3.3.24` (2026-10-31)
+- **Latest**: `brz-3.3.25` (2026-11-08)
 - **Last commit**: 2026-11-06
 
 ## Popularity
@@ -41,18 +41,18 @@ Total: **339,242** lines of code across **1037** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 5 · **Merged PRs**: 361 · **Open PRs**: 34 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 54068
+- **Releases**: 6 · **Merged PRs**: 369 · **Open PRs**: 31 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 54068
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 2 | 24 | 18 | 0 | 0 | 2 |
-| last60d | 2026-09-09 | 2 | 50 | 25 | 0 | 0 | 2 |
-| 90d | 2026-08-10 | 2 | 50 | 25 | 0 | 0 | 2 |
-| last180d | 2026-05-12 | 2 | 86 | 28 | 0 | 0 | 58 |
-| 360d | 2025-11-13 | 3 | 137 | 28 | 0 | 0 | 380 |
-| last720d | 2024-11-18 | 5 | 264 | 34 | 0 | 0 | 946 |
+| 30d | 2026-10-11 | 3 | 28 | 14 | 0 | 0 | 2 |
+| last60d | 2026-09-11 | 3 | 58 | 22 | 0 | 0 | 2 |
+| 90d | 2026-08-12 | 3 | 58 | 22 | 0 | 0 | 2 |
+| last180d | 2026-05-14 | 3 | 94 | 25 | 0 | 0 | 58 |
+| 360d | 2025-11-15 | 4 | 145 | 25 | 0 | 0 | 380 |
+| last720d | 2024-11-20 | 6 | 272 | 31 | 0 | 0 | 943 |
 
 ## Distribution status
 
@@ -80,4 +80,4 @@ Install metadata for breezy lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T07:06:10Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T08:37:12Z._
