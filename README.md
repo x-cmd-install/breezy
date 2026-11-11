@@ -41,18 +41,18 @@ Total: **339,242** lines of code across **1037** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 6 · **Merged PRs**: 369 · **Open PRs**: 31 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 54068
+- **Releases**: 6 · **Merged PRs**: 371 · **Open PRs**: 39 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 54068
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 3 | 28 | 14 | 0 | 0 | 2 |
-| last60d | 2026-09-11 | 3 | 58 | 22 | 0 | 0 | 2 |
-| 90d | 2026-08-12 | 3 | 58 | 22 | 0 | 0 | 2 |
-| last180d | 2026-05-14 | 3 | 94 | 25 | 0 | 0 | 58 |
-| 360d | 2025-11-15 | 4 | 145 | 25 | 0 | 0 | 380 |
-| last720d | 2024-11-20 | 6 | 272 | 31 | 0 | 0 | 943 |
+| 30d | 2026-10-12 | 3 | 29 | 20 | 0 | 0 | 2 |
+| last60d | 2026-09-12 | 3 | 60 | 30 | 0 | 0 | 2 |
+| 90d | 2026-08-13 | 3 | 60 | 30 | 0 | 0 | 2 |
+| last180d | 2026-05-15 | 3 | 95 | 33 | 0 | 0 | 58 |
+| 360d | 2025-11-16 | 4 | 147 | 33 | 0 | 0 | 380 |
+| last720d | 2024-11-21 | 6 | 274 | 39 | 0 | 0 | 943 |
 
 ## Distribution status
 
@@ -66,7 +66,7 @@ Reported by **105** distros on [repology.org](https://repology.org/project/breez
 | Ubuntu 26.04 LTS | `3.3.21` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.3.5` | ⚠️ outdated |
 | Arch | `3.3.22` | ⚠️ outdated |
-| Homebrew | `3.3.24` | ✅ latest |
+| Homebrew | `3.3.25` | ✅ latest |
 | Fedora rawhide | `3.3.21` | ⚠️ outdated |
 | Nix unstable | `3.3.21` | ⚠️ outdated |
 | Alpine edge | `3.3.15` | ⚠️ outdated |
@@ -80,4 +80,4 @@ Install metadata for breezy lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T08:37:12Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T07:41:20Z._
