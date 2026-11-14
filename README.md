@@ -37,22 +37,22 @@ Total: **339,242** lines of code across **1037** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 195 · **Forks**: 37 · **Open issues**: 0 · **Contributors**: 189
+- **Stars**: 196 · **Forks**: 37 · **Open issues**: 0 · **Contributors**: 189
 
 ## Totals (cumulative)
 
-- **Releases**: 6 · **Merged PRs**: 373 · **Open PRs**: 45 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 54068
+- **Releases**: 6 · **Merged PRs**: 373 · **Open PRs**: 47 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 54068
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 3 | 23 | 24 | 0 | 0 | 2 |
-| last60d | 2026-09-14 | 3 | 62 | 37 | 0 | 0 | 2 |
-| 90d | 2026-08-15 | 3 | 62 | 37 | 0 | 0 | 2 |
-| last180d | 2026-05-17 | 3 | 96 | 40 | 0 | 0 | 58 |
-| 360d | 2025-11-18 | 4 | 145 | 40 | 0 | 0 | 380 |
-| last720d | 2024-11-23 | 6 | 276 | 45 | 0 | 0 | 943 |
+| 30d | 2026-10-15 | 3 | 23 | 26 | 0 | 0 | 2 |
+| last60d | 2026-09-15 | 3 | 62 | 39 | 0 | 0 | 2 |
+| 90d | 2026-08-16 | 3 | 62 | 39 | 0 | 0 | 2 |
+| last180d | 2026-05-18 | 3 | 96 | 42 | 0 | 0 | 58 |
+| 360d | 2025-11-19 | 4 | 144 | 42 | 0 | 0 | 380 |
+| last720d | 2024-11-24 | 6 | 276 | 47 | 0 | 0 | 943 |
 
 ## Distribution status
 
@@ -80,4 +80,4 @@ Install metadata for breezy lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T08:11:17Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T08:15:19Z._
