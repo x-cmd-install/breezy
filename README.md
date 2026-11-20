@@ -37,26 +37,26 @@ Total: **339,242** lines of code across **1037** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 196 · **Forks**: 36 · **Open issues**: 0 · **Contributors**: 189
+- **Stars**: 196 · **Forks**: 35 · **Open issues**: 0 · **Contributors**: 189
 
 ## Totals (cumulative)
 
-- **Releases**: 6 · **Merged PRs**: 384 · **Open PRs**: 56 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 54068
+- **Releases**: 6 · **Merged PRs**: 356 · **Open PRs**: 10 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 54068
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 3 | 27 | 36 | 0 | 0 | 2 |
-| last60d | 2026-09-20 | 3 | 69 | 48 | 0 | 0 | 2 |
-| 90d | 2026-08-21 | 3 | 73 | 48 | 0 | 0 | 2 |
-| last180d | 2026-05-23 | 3 | 104 | 51 | 0 | 0 | 43 |
-| 360d | 2025-11-24 | 4 | 155 | 51 | 0 | 0 | 379 |
-| last720d | 2024-11-29 | 6 | 287 | 56 | 0 | 0 | 943 |
+| 30d | 2026-10-21 | 3 | 19 | 2 | 0 | 0 | 2 |
+| last60d | 2026-09-21 | 3 | 42 | 2 | 0 | 0 | 2 |
+| 90d | 2026-08-22 | 3 | 45 | 2 | 0 | 0 | 2 |
+| last180d | 2026-05-24 | 3 | 76 | 5 | 0 | 0 | 43 |
+| 360d | 2025-11-25 | 4 | 127 | 5 | 0 | 0 | 379 |
+| last720d | 2024-11-30 | 6 | 259 | 10 | 0 | 0 | 943 |
 
 ## Distribution status
 
-Reported by **105** distros on [repology.org](https://repology.org/project/breezy). **2** are ✅ on the latest upstream release, **94** are ⚠️ on an older version.
+Reported by **106** distros on [repology.org](https://repology.org/project/breezy). **2** are ✅ on the latest upstream release, **95** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -80,4 +80,4 @@ Install metadata for breezy lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261119.yml` · 2026-11-19T08:08:54Z._
+_Snapshot: `data/card/261120.yml` · 2026-11-20T10:27:05Z._
