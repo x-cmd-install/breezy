@@ -47,16 +47,16 @@ Total: **339,242** lines of code across **1037** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 3 | 19 | 2 | 0 | 0 | 2 |
-| last60d | 2026-09-21 | 3 | 42 | 2 | 0 | 0 | 2 |
-| 90d | 2026-08-22 | 3 | 45 | 2 | 0 | 0 | 2 |
-| last180d | 2026-05-24 | 3 | 76 | 5 | 0 | 0 | 43 |
-| 360d | 2025-11-25 | 4 | 127 | 5 | 0 | 0 | 379 |
-| last720d | 2024-11-30 | 6 | 259 | 10 | 0 | 0 | 943 |
+| 30d | 2026-10-22 | 3 | 19 | 2 | 0 | 0 | 2 |
+| last60d | 2026-09-22 | 3 | 42 | 2 | 0 | 0 | 2 |
+| 90d | 2026-08-23 | 3 | 45 | 2 | 0 | 0 | 2 |
+| last180d | 2026-05-25 | 3 | 75 | 5 | 0 | 0 | 43 |
+| 360d | 2025-11-26 | 4 | 127 | 5 | 0 | 0 | 379 |
+| last720d | 2024-12-01 | 6 | 259 | 10 | 0 | 0 | 943 |
 
 ## Distribution status
 
-Reported by **106** distros on [repology.org](https://repology.org/project/breezy). **2** are ✅ on the latest upstream release, **95** are ⚠️ on an older version.
+Reported by **105** distros on [repology.org](https://repology.org/project/breezy). **2** are ✅ on the latest upstream release, **94** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -80,4 +80,4 @@ Install metadata for breezy lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T10:27:05Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T08:16:33Z._
