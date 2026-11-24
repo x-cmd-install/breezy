@@ -47,12 +47,12 @@ Total: **339,242** lines of code across **1037** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 2 | 19 | 44 | 0 | 0 | 2 |
-| last60d | 2026-09-24 | 3 | 42 | 44 | 0 | 0 | 2 |
-| 90d | 2026-08-25 | 3 | 45 | 44 | 0 | 0 | 2 |
-| last180d | 2026-05-27 | 3 | 74 | 46 | 0 | 0 | 8 |
-| 360d | 2025-11-28 | 4 | 127 | 47 | 0 | 0 | 379 |
-| last720d | 2024-12-03 | 6 | 259 | 52 | 0 | 0 | 943 |
+| 30d | 2026-10-25 | 2 | 19 | 44 | 0 | 0 | 2 |
+| last60d | 2026-09-25 | 3 | 42 | 44 | 0 | 0 | 2 |
+| 90d | 2026-08-26 | 3 | 45 | 44 | 0 | 0 | 2 |
+| last180d | 2026-05-28 | 3 | 73 | 46 | 0 | 0 | 8 |
+| 360d | 2025-11-29 | 4 | 127 | 47 | 0 | 0 | 379 |
+| last720d | 2024-12-04 | 6 | 259 | 52 | 0 | 0 | 943 |
 
 ## Distribution status
 
@@ -80,4 +80,4 @@ Install metadata for breezy lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T09:59:53Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T11:36:27Z._
