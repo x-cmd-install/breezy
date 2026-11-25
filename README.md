@@ -41,35 +41,18 @@ Total: **339,242** lines of code across **1037** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 6 · **Merged PRs**: 356 · **Open PRs**: 52 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 54068
+- **Releases**: 6 · **Merged PRs**: 357 · **Open PRs**: 51 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 54068
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 2 | 19 | 44 | 0 | 0 | 2 |
-| last60d | 2026-09-25 | 3 | 42 | 44 | 0 | 0 | 2 |
-| 90d | 2026-08-26 | 3 | 45 | 44 | 0 | 0 | 2 |
-| last180d | 2026-05-28 | 3 | 73 | 46 | 0 | 0 | 8 |
-| 360d | 2025-11-29 | 4 | 127 | 47 | 0 | 0 | 379 |
-| last720d | 2024-12-04 | 6 | 259 | 52 | 0 | 0 | 943 |
-
-## Distribution status
-
-Reported by **104** distros on [repology.org](https://repology.org/project/breezy). **2** are ✅ on the latest upstream release, **93** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.3.22` | ⚠️ outdated |
-| Debian 14 | `3.3.22` | ⚠️ outdated |
-| Debian 13 | `3.3.11` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.3.21` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.3.5` | ⚠️ outdated |
-| Arch | `3.3.22` | ⚠️ outdated |
-| Homebrew | `3.3.25` | ✅ latest |
-| Fedora rawhide | `3.3.21` | ⚠️ outdated |
-| Nix unstable | `3.3.21` | ⚠️ outdated |
-| Alpine edge | `3.3.15` | ⚠️ outdated |
+| 30d | 2026-10-26 | 2 | 19 | 43 | 0 | 0 | 2 |
+| last60d | 2026-09-26 | 3 | 43 | 43 | 0 | 0 | 2 |
+| 90d | 2026-08-27 | 3 | 46 | 43 | 0 | 0 | 2 |
+| last180d | 2026-05-29 | 3 | 74 | 45 | 0 | 0 | 8 |
+| 360d | 2025-11-30 | 4 | 128 | 46 | 0 | 0 | 379 |
+| last720d | 2024-12-05 | 6 | 260 | 51 | 0 | 0 | 943 |
 
 ## Improve this data
 
@@ -80,4 +63,4 @@ Install metadata for breezy lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:36:27Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:45:18Z._
